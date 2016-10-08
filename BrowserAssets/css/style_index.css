@@ -24,7 +24,6 @@ body {
 .wrapper {
     width:100%;
     height:100%;
-    
 }
 
 .page_bg {
@@ -45,12 +44,8 @@ body {
     background-color: #C9161C;
     height: 128px;
     width: 10%;
-}
-
-.logo_bar {
-    width: 100%;
-    height: 128px;
-    left: 10.5%;
+    display: inline-block;
+    margin-right: 0.5%;
 }
 
 .logo {
@@ -79,12 +74,7 @@ body {
     width:40%;
     height: 28px;
     top:96px;
-}
-
-.game_menu_bar {
-    width:42.5%;
-    height: 124px;
-    left:40%;
+    display: inline-block;
 }
 
 .button {
