@@ -1,0 +1,75 @@
+﻿<html>
+
+<head>
+
+<title>Prince of Stride</title>
+
+<link rel="stylesheet" href="resource/css/style_index.css" type="text/css" />
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<canvas id="myCanvas" width="1280px" height="720px">your browser does not support the canvas tag </canvas>
+	
+	<script type="text/javascript">
+
+	var canvas=document.getElementById('myCanvas');
+	var ctx=canvas.getContext('2d');
+	var img=new Image();
+	img.src="cns_bg.jpg";
+	img.onload=function(){
+		ctx.drawImage(img,0,0);
+	}
+
+	</script>
+	
+	<div class="top_bar ui">
+	
+		<div class="logo_left ui">
+		
+		</div>
+	
+		<div class="logo ui"></div>
+		
+		<div class="logo_right ui"></div>
+	
+	</div>
+	
+	<div class="game_menu">
+	
+		<div class="game_menu_left">
+		
+		</div>
+	
+		<div class="game_menu_01">
+		
+		</div>
+		
+		<div class="game_menu_02">
+		
+		</div>
+		
+		<div class="game_menu_03">
+		
+		</div>
+		
+		<div class="game_menu_04">
+		
+		</div>
+		
+		<div class="game_menu_right">
+		
+		</div>
+	
+	</div>
+	
+	
+
+</div>
+
+</body>
+
+</html>
