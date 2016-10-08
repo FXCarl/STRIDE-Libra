@@ -4,7 +4,7 @@
 
 <title>Prince of Stride</title>
 
-<link rel="stylesheet" href="resource/css/style_index.css" type="text/css" />
+<link rel="stylesheet" href="css/style_index.css" type="text/css" />
 
 </head>
 
@@ -12,19 +12,24 @@
 
 <div class="wrapper">
 
-	<canvas id="myCanvas" width="1280px" height="720px">your browser does not support the canvas tag </canvas>
+	<div class="page_bg">
 	
-	<script type="text/javascript">
+	<!--
+		<canvas id="myCanvas" width="1280px" height="720px">your browser does not support the canvas tag </canvas>
+		
+		<script type="text/javascript">
 
-	var canvas=document.getElementById('myCanvas');
-	var ctx=canvas.getContext('2d');
-	var img=new Image();
-	img.src="cns_bg.jpg";
-	img.onload=function(){
-		ctx.drawImage(img,0,0);
-	}
+		var canvas=document.getElementById('myCanvas');
+		var ctx=canvas.getContext('2d');
+		var img=new Image();
+		img.src="img/cns_bg.jpg";
+		img.onload=function(){
+			ctx.drawImage(img,0,0);
+		}
 
-	</script>
+		</script>
+	-->
+	</div>
 	
 	<div class="top_bar ui">
 	
@@ -38,30 +43,18 @@
 	
 	</div>
 	
-	<div class="game_menu">
+	<div class="game_menu ui">
 	
-		<div class="game_menu_left">
-		
-		</div>
+		<div class="game_menu_left ui"></div>
 	
-		<div class="game_menu_01">
+		<div class="game_menu_bar ui">
 		
-		</div>
-		
-		<div class="game_menu_02">
-		
-		</div>
-		
-		<div class="game_menu_03">
-		
-		</div>
-		
-		<div class="game_menu_04">
-		
-		</div>
-		
-		<div class="game_menu_right">
-		
+			<div class="button" id="btn_1">
+			</div><div class="button" id="btn_2">
+			</div><div class="button" id="btn_3">
+			</div><div class="button" id="btn_4">
+			</div><div class="game_menu_right ui"></div>
+			
 		</div>
 	
 	</div>
