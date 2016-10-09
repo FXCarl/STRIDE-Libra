@@ -1,6 +1,6 @@
-# stride-libra
+# STRIDE-Libra
 
-> stride-libra ui project
+> A vue project for game STRIDE-Libra
 
 ## Build Setup
 
