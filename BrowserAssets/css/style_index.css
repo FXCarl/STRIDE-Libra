@@ -21,73 +21,75 @@ body {
     position: absolute;
 }
 
+.hd {
+    width:1920px;
+    height:1080px;
+}
+
 .wrapper {
-    width:100%;
-    height:100%;
+    overflow: hidden;
 }
 
 .page_bg {
     background-image: url(../img/cns_bg.jpg);
     background-size: cover;
-    height: 100%;
-    width:100%;
 }
 
 .top_bar {
-    width:100%;
-    height:128px;
-    top:14%;
+    width:1920px;
+    height:192px;
+    top:148px;
     overflow: hidden;
 }
 
 .logo_left {
     background-color: #C9161C;
-    height: 128px;
-    width: 10%;
+    height: 192px;
+    width: 186px;
     display: inline-block;
-    margin-right: 0.5%;
+    margin-right: 0;
 }
 
 .logo {
     background-image: url(../img/logo.png);
-    width:394px;
-    height: 128px;
+    width:590px;
+    height: 192px;
     display: inline-block;
 }
 
 .logo_right {
     background-color: #C9161C;
-    height: 128px;
-    width:100%;
+    height: 192px;
+    width:1144px;
     display: inline-block;
 }
 
 .game_menu {
-    height: 124px;
-    width:100%;
-    top:78%;
+    height: 186px;
+    width:1920px;
+    top:842px;
     overflow: hidden;
 }
 
 .game_menu_left {
     background-color: #00467A;
     width:40%;
-    height: 28px;
-    top:96px;
+    height: 42px;
+    top:140px;
     display: inline-block;
 }
 
 .button {
-    width:136px;
-    height: 124px;
+    width:196px;
+    height: 186px;
     display: inline-block;
 }
 
 .game_menu_right {
     background-color: #00467A;
     width:100%;
-    height: 28px;
-    top:96px;
+    height: 42px;
+    top:144px;
     display: inline-block;
 }
 
