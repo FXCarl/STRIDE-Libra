@@ -10,4 +10,4 @@ export default {
 }
 </script>
 
-<style src="./assets/css/style_index.css"></style>
+<style src="./assets/css/style_main.css"></style>
