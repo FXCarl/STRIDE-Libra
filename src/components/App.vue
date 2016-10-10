@@ -1,4 +1,4 @@
-<template  src="./assets/html/main.html"></template>
+<template  src="../assets/html/main.html"></template>
 
 <script>
 export default {
@@ -10,4 +10,4 @@ export default {
 }
 </script>
 
-<style src="./assets/css/style_main.css"></style>
+<style src="../assets/css/style_main.css"></style>

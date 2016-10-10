@@ -1,14 +1,6 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
 import store from './store'
-import routes from './routes'
-
-Vue.use(VueRouter)
-
-// keep it simple for now.
-const router = new VueRouter({
-  routes
-})
+import router from './router'
 
 // Make sure to inject the router with the router option to make the
 // whole app router-aware.

@@ -1,4 +1,4 @@
-import App from '../App.vue'
+import App from '../components/App.vue'
 import Teamvs from '../components/Teamvs.vue'
 
 // route map
