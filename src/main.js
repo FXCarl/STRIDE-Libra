@@ -1,28 +1,7 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Vuex from 'vuex'
-
-Vue.use(VueRouter)
-Vue.use(Vuex)
-
-import App from './App.vue'
-import Teamvs from './components/Teamvs.vue'
-
-const routes = [
-  { path: '/intro', component: App },
-  { path: '/team', component: Teamvs}
-]
-
-// keep it simple for now.
-const router = new VueRouter({
-  routes
-})
+import store from './store'
+import router from './router'
 
 // Make sure to inject the router with the router option to make the
 // whole app router-aware.
-const app = new Vue({
-  router
-}).$mount('#app')
-
-// Now the app has started!
-router.push('/intro')
+const app = new Vue({store, router}).$mount('#app')
