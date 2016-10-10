@@ -43,7 +43,7 @@ body {
 }
 
 .logo_left {
-    background-color: #C9161C;
+    background-image: url(../img/top_bar_bg.png);
     height: 192px;
     width: 186px;
     display: inline-block;
@@ -58,7 +58,7 @@ body {
 }
 
 .logo_right {
-    background-color: #C9161C;
+    background-image: url(../img/top_bar_bg.png);
     height: 192px;
     width:1144px;
     display: inline-block;

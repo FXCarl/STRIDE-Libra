@@ -6,7 +6,9 @@ Vue.use(VueRouter)
 Vue.use(Vuex)
 
 import App from './App.vue'
+import page from './page.vue'
 
+<<<<<<< Updated upstream
 const routes = [
   { path: '/intro', component: App }
 ]
@@ -24,3 +26,9 @@ const app = new Vue({
 
 // Now the app has started!
 router.push('/intro')
+=======
+new Vue({
+  el: '#app',
+  render: h => h(page)
+})
+>>>>>>> Stashed changes
