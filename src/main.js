@@ -5,15 +5,8 @@ import Vuex from 'vuex'
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
-import App from './App.vue'
-import Teamvs from './components/Teamvs.vue'
-
-const routes = [
-  { path: '/intro', component: App },
-  { path: '/team', component: Teamvs}
-]
-
 // keep it simple for now.
+import routes from './routes'
 const router = new VueRouter({
   routes
 })
@@ -23,6 +16,3 @@ const router = new VueRouter({
 const app = new Vue({
   router
 }).$mount('#app')
-
-// Now the app has started!
-router.push('/intro')
