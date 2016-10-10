@@ -8,10 +8,10 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "qrious": "^2.1.0",
     "vue": "^2.0.1",
     "vue-router": "^2.0.0",
-    "vuex": "^2.0.0",
-    "davidshimjs-qrcodejs": "^0.0.2"
+    "vuex": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

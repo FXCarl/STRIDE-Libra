@@ -1,20 +1,27 @@
 <template>
-    <div>
-        <div id = 'hint'>This is a QRCode Page!</div>
-        <div id = 'qrcode'></div>
-        <button v-on:click = 'create'>QRCode</button>
+    <div id="qrpage">
+        <input v-model="parentMsg" placeholder="Try type in !"></input>
+        <br>
+        <qrcode v-bind:data ="parentMsg"></qrcode>  
     </div>
 </template>
+
 <script>
-    import QRCode from 'davidshimjs-qrcodejs'
+    import QRCode from './Qrcode.vue'
     export default{
-        methods:{
-            create:function(){
-                new QRCode(document.getElementById("qrcode"), "http://www.baidu.com");
+        data () {
+            return {
+                parentMsg: ''
             }
+        },
+        components: {
+            'qrcode': QRCode
         }
     }
 </script>
+
 <style>
-    .hint{background-color:#ffffff;height:40px}
+#qrpage{
+    background-color: #FFFFFF;
+}
 </style>
