@@ -133,11 +133,141 @@ body {
     width: 1920px;
     height:270px;
     overflow: hidden;
+    top: 802px;
 }
 
 .team_vs_order_bar_under {
     width: 1920px;
     height: 52px;
     background-color: #333;
+    top:108px;
 }
 
+.team_vs_order_bar_position {
+    background-image: url(../img/order_bar_p_bg.png);
+    background-size: cover;
+    position: absolute;
+    top: 12px;
+}
+
+.order_bar_content {
+    width: 342px;
+    height: 220px;
+    background-size: cover;
+    margin-top:12px;
+    margin-left:16px;
+    position: absolute;
+}
+
+#odr_bar_p1 {
+    width: 368px;
+    height: 246px;
+    left: 110px;
+    z-index: 0;
+}
+
+#odr_bar_p2 {
+    width: 368px;
+    height: 246px;
+    left: 442px;
+    z-index: 0;
+}
+
+#odr_bar_p3 {
+    width: 368px;
+    height: 246px;
+    left: 774px;
+    z-index: 0;
+}
+
+#odr_bar_p4 {
+    width: 368px;
+    height: 246px;
+    left: 1106px;
+    z-index: 0;
+}
+
+#odr_bar_p5 {
+    width: 368px;
+    height: 246px;
+    left: 1438px;
+    z-index: 0;
+}
+
+#odr_bar_cnt_1 {
+    background-image: url(../img/order_bar_avatar/odr_bar_1st.png);
+}
+
+#odr_bar_cnt_2 {
+    background-image: url(../img/order_bar_avatar/odr_bar_2nd.png);
+}
+
+#odr_bar_cnt_3 {
+    background-image: url(../img/order_bar_avatar/odr_bar_3rd.png);
+}
+
+/*
+
+#odr_bar_cnt_4 {
+    background-image: url(../img/order_bar_avatar/odr_bar_4th.png);
+}
+
+*/
+
+#odr_bar_cnt_5 {
+    background-image: url(../img/order_bar_avatar/odr_bar_5th.png);
+}
+
+.order_bar_lock_icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/order_bar_p_locked.png);
+    position: absolute;
+    display: none;
+    top:16px;
+    left:28px;
+}
+
+/* Selected and Locked */
+
+#odr_bar_cnt_3 {
+    background-image: url(../img/order_bar_avatar/odr_bar_02.png);
+}
+
+#odr_bar_cnt_4 {
+    background-image: url(../img/order_bar_avatar/odr_bar_01.png);
+}
+
+#odr_bar_slc_3 {
+    background-image: url(../img/order_bar_avatar/odr_bar_mask_3rd.png);
+    display: block;
+}
+
+#odr_bar_slc_4 {
+    background-image: url(../img/order_bar_avatar/odr_bar_mask_4th.png);
+    display: block;
+}
+
+#odr_bar_lck_4 {
+    display: block;
+}
+
+/* Focus */
+
+#odr_bar_p2 {
+    width: 406px;
+    height: 270px;
+    left: 442px;
+    z-index: 10;
+    margin-left:-12px;
+    margin-top:-12px;
+}
+
+#odr_bar_cnt_2 {
+    background-image: url(../img/order_bar_avatar/odr_bar_03.png);
+    width: 378px;
+    height: 244px;
+    background-size: cover;
+    margin-top:13px;
+    margin-left:14px;
+}
