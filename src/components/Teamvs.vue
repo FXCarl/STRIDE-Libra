@@ -20,4 +20,4 @@
 
 </template>
 
-<style src="./assets/css/style_main.css"></style>
+<style src="../assets/css/style_main.css"></style>

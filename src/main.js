@@ -6,9 +6,11 @@ Vue.use(VueRouter)
 Vue.use(Vuex)
 
 import App from './App.vue'
+import Teamvs from './components/Teamvs.vue'
 
 const routes = [
-  { path: '/intro', component: App }
+  { path: '/intro', component: App },
+  { path: '/team', component: Teamvs}
 ]
 
 // keep it simple for now.
