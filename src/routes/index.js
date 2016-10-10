@@ -1,5 +1,5 @@
-import App from './App.vue'
-import Teamvs from './components/Teamvs.vue'
+import App from '../App.vue'
+import Teamvs from '../components/Teamvs.vue'
 
 // route map
 export default [
