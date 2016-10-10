@@ -127,7 +127,7 @@ body {
     background-image: url(../img/btn_hover.png);
 }
 
-/* Team VS */
+/* Team VS Order */
 
 .team_vs_order_bar {
     width: 1920px;
@@ -252,7 +252,7 @@ body {
     display: block;
 }
 
-/* Focus */
+/* Focus 
 
 #odr_bar_p2 {
     width: 406px;
@@ -270,4 +270,300 @@ body {
     background-size: cover;
     margin-top:13px;
     margin-left:14px;
+}
+
+*/
+
+/* Member List */
+
+.members_box {
+    width: 1024px;
+    height: 674px;
+    top: 112px;
+    overflow: hidden;
+}
+
+.members_box_under {
+    width: 1204px;
+    height: 54px;
+    background-color: #323232;
+    top: 44px;
+}
+
+.members_box_main {
+    width: 1204px;
+    height: 576px;
+    background-color: rgba(224, 224, 224, 0.8);
+    top: 98px;
+}
+
+.members_list {
+    width: 648px;
+    height: 576px;
+    margin-top: 18px;
+}
+
+.members_list_e {
+    width: 648px;
+    margin-top: 14px;
+}
+
+ /* 1st Runner */
+
+#mbr_list_1 {
+    height: 94px;
+}
+
+#mbr_char_color_1 {
+    background-color: #69EBDD;
+    width: 190px;
+    height: 94px;
+}
+
+#mbr_char_white_1 {
+    background-color: #fdfdfd;
+    width: 458px;
+    height: 94px;
+    left: 190px;
+}
+
+#mbr_char_avt_1 {
+    background-image: url(../img/members/000_i.png);
+    width:380px;
+    height: 94px;
+    margin-left: -40px;
+}
+
+#mbr_char_nm_1 {
+    text-align: right;
+    width: 648px; 
+    padding-top: 24px;
+}
+
+#mbr_char_nm_cnt_1 {
+    color: #69EBDD;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 48px;
+    margin-right: 90px;
+}
+
+#mbr_char_p_1 {
+    text-align: right;
+    width: 648px; 
+}
+
+#mbr_char_p_cnt_1 {
+    color: #69EBDD;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 96px;
+    line-height: 94px;
+    margin-right: 2px;
+}
+
+ /* 2nd Runner */
+
+#mbr_list_2 {
+    height: 94px;
+}
+
+#mbr_char_color_2 {
+    background-color: #C43D69;
+    width: 190px;
+    height: 94px;
+}
+
+#mbr_char_white_2 {
+    background-color: #fdfdfd;
+    width: 458px;
+    height: 94px;
+    left: 190px;
+}
+
+#mbr_char_avt_2 {
+    background-image: url(../img/members/001_i.png);
+    width:380px;
+    height: 94px;
+    margin-left: -40px;
+}
+
+#mbr_char_nm_2 {
+    text-align: right;
+    width: 648px; 
+    padding-top: 24px;
+}
+
+#mbr_char_nm_cnt_2 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 48px;
+    margin-right: 90px;
+}
+
+#mbr_char_p_2 {
+    text-align: right;
+    width: 648px; 
+}
+
+#mbr_char_p_cnt_2 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 96px;
+    line-height: 94px;
+    margin-right: 2px;
+}
+
+ /* 3rd Runner */
+
+#mbr_list_3 {
+    height: 94px;
+}
+
+#mbr_char_color_3 {
+    background-color: #D9EB41;
+    width: 190px;
+    height: 94px;
+}
+
+#mbr_char_white_3 {
+    background-color: #D9EB41;
+    width: 470px;
+    height: 94px;
+    left: 190px;
+}
+
+#mbr_char_avt_3 {
+    background-image: url(../img/members/002_i.png);
+    width:380px;
+    height: 94px;
+    margin-left: 0px;
+}
+
+#mbr_char_nm_3 {
+    text-align: right;
+    width: 648px; 
+    padding-top: 24px;
+}
+
+#mbr_char_nm_cnt_3 {
+    color: #eee;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 48px;
+    margin-right: 90px;
+}
+
+#mbr_char_p_3 {
+    text-align: right;
+    width: 648px; 
+}
+
+#mbr_char_p_cnt_3 {
+    color: #D9EB41;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 96px;
+    line-height: 94px;
+    margin-right: 2px;
+}
+
+ /* 4th Runner */
+
+#mbr_list_4 {
+    height: 94px;
+}
+
+#mbr_char_color_4 {
+    background-color: #C43D69;
+    width: 190px;
+    height: 94px;
+}
+
+#mbr_char_white_4 {
+    background-color: #fdfdfd;
+    width: 458px;
+    height: 94px;
+    left: 190px;
+}
+
+#mbr_char_avt_4 {
+    background-image: url(../img/members/001_i.png);
+    width:380px;
+    height: 94px;
+    margin-left: -40px;
+}
+
+#mbr_char_nm_4 {
+    text-align: right;
+    width: 648px; 
+    padding-top: 24px;
+}
+
+#mbr_char_nm_cnt_4 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 48px;
+    margin-right: 90px;
+}
+
+#mbr_char_p_4 {
+    text-align: right;
+    width: 648px; 
+}
+
+#mbr_char_p_cnt_4 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 96px;
+    line-height: 94px;
+    margin-right: 2px;
+}
+
+ /* 5th Runner */
+
+#mbr_list_5 {
+    height: 94px;
+}
+
+#mbr_char_color_5 {
+    background-color: #C43D69;
+    width: 190px;
+    height: 94px;
+}
+
+#mbr_char_white_5 {
+    background-color: #fdfdfd;
+    width: 458px;
+    height: 94px;
+    left: 190px;
+}
+
+#mbr_char_avt_5 {
+    background-image: url(../img/members/001_i.png);
+    width:380px;
+    height: 94px;
+    margin-left: -40px;
+}
+
+#mbr_char_nm_5 {
+    text-align: right;
+    width: 648px; 
+    padding-top: 24px;
+}
+
+#mbr_char_nm_cnt_5 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 48px;
+    margin-right: 90px;
+}
+
+#mbr_char_p_5 {
+    text-align: right;
+    width: 648px; 
+}
+
+#mbr_char_p_cnt_5 {
+    color: #C43D69;
+    font-family: Arial, Microsoft Yahei;
+    font-size: 96px;
+    line-height: 94px;
+    margin-right: 2px;
 }
