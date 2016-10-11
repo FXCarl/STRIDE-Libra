@@ -277,7 +277,7 @@ body {
 /* Member List */
 
 .members_box {
-    width: 1024px;
+    width: 1204px;
     height: 674px;
     top: 112px;
     overflow: hidden;
@@ -426,7 +426,7 @@ body {
 
 #mbr_char_white_3 {
     background-color: #D9EB41;
-    width: 470px;
+    width: 458px;
     height: 94px;
     left: 190px;
 }
@@ -566,4 +566,89 @@ body {
     font-size: 96px;
     line-height: 94px;
     margin-right: 2px;
+}
+
+/* Status */
+
+.members_status_box {
+    width: 534px;
+    height: 524px;
+    left: 658px;
+    top: 32px;
+    overflow: hidden;
+}
+
+.members_box_status_bar {
+    background-color: #323232;
+    height: 524px;
+    width: 60px;
+}
+
+.members_box_status {
+    background-color: #fdfdfd;
+    height: 88px;
+    width: 476px;
+    left: 60px;
+}
+
+#mbr_sts_box_1 {
+
+}
+
+#mbr_sts_box_2 {
+    top:88px;
+}
+
+#mbr_sts_box_3 {
+    top:176px;
+}
+
+#mbr_sts_box_4 {
+    top:264px;
+}
+
+#mbr_sts_box_5 {
+    top:352px;
+}
+
+#mbr_sts_box_6 {
+    top:440px;
+}
+
+.members_box_status_icon {
+    margin:0;
+    padding:0;
+    display: inline-block;
+    width: 56px;
+    height: 88px;
+    left: 56px;
+    padding-top: 16px;
+}
+
+.members_box_status_icon_img {
+    width: 56px;
+    height: 56px;
+}
+
+.members_box_status_name {
+    margin:0;
+    padding:0;
+    display: inline-block;
+    font-family: Arial, Microsoft Yahei;
+    color: #333;
+    font-size: 42px;
+    width: 254px;
+    line-height: 88px;
+    left: 122px;
+}
+
+.members_box_status_level {
+    margin:0;
+    padding:0;
+    display: inline-block;
+    font-family: Arial, Microsoft Yahei;
+    color: #333;
+    font-size: 56px;
+    line-height: 88px;
+    left: 366px;
 }

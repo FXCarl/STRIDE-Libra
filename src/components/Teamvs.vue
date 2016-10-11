@@ -8,7 +8,7 @@
             <div class="members_box_under ui"></div>
             <div class="focus_order_p"></div>
             <div class="members_box_main ui">
-                <div class="members_list">
+                <div class="members_list ui">
                     <div class="members_list_e" id="mbr_list_1">
                         <div class="ui" id="mbr_char_color_1"></div>
                         <div class="ui" id="mbr_char_white_1"></div>
@@ -65,14 +65,74 @@
                         </div>
                     </div>
                 </div>
-                <div class="members_box">
-                    <div class="members_box_status_bar"></div>
-                    <div class="members_box_status_1"></div>
-                    <div class="members_box_status_2"></div>
-                    <div class="members_box_status_3"></div>
-                    <div class="members_box_status_4"></div>
-                    <div class="members_box_status_5"></div>
-                    <div class="members_box_status_6"></div>
+                <div class="members_status_box ui">
+                    <div class="members_box_status_bar ui"></div>
+                    <div class="members_box_status ui" id="mbr_sts_box_1">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>冲刺</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
+                    <div class="members_box_status ui" id="mbr_sts_box_2">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>长距离</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
+                    <div class="members_box_status ui" id="mbr_sts_box_3">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>弯角</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
+                    <div class="members_box_status ui" id="mbr_sts_box_4">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>倾斜</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
+                    <div class="members_box_status ui" id="mbr_sts_box_5">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>诡计</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
+                    <div class="members_box_status ui" id="mbr_sts_box_6">
+                        <div class="members_box_status_icon ui">
+                            <img class="members_box_status_icon_img"></img>
+                        </div>
+                        <div class="members_box_status_name ui">
+                            <span>精神</span>
+                        </div>
+                        <div class="members_box_status_level ui">
+                            <span>B</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
