@@ -6,17 +6,16 @@
     import Qrious from 'qrious'
 
     export default {
-        props: ['data'],
+        props: ['info'],
         data() {
             return{
-                imgeSrc: '',
-                qr: new Qrious()
+                qr: new Qrious({value: this.info})
             }
         },
-        watch: {
-            data: function(newData){
-                this.qr.value = newData
-                this.imgeSrc = this.qr.toDataURL()
+        computed: {
+            imgeSrc: function(){
+                this.qr.value = this.info
+                return this.qr.toDataURL()
             }
         }
     }

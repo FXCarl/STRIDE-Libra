@@ -2,7 +2,7 @@
     <div id="qrpage">
         <input v-model="parentMsg" placeholder="Try type in !"></input>
         <br>
-        <qrcode v-bind:data ="parentMsg"></qrcode>  
+        <qrcode v-bind:info ="parentMsg"></qrcode>  
     </div>
 </template>
 
