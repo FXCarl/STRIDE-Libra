@@ -653,5 +653,39 @@ body {
     left: 366px;
 }
 
-/* */
+/* Garage */
 
+.garage_scroll {
+    width: 1860px;
+    height: 760px;
+    top: 120px;
+    left: 64px;
+    overflow: auto;
+}
+
+.garage_box {
+    width: 1800px;
+    height: 64px;
+    margin-bottom: 16px;
+    background-color: rgba(244, 244, 244, 0.7);
+}
+
+.garage_box_left {
+    width: 1700px;
+    height: 64px;
+    display: inline-block;
+    position: absolute;
+}
+
+.garage_box_btn {
+    display: inline-block;
+    width: 60px;
+    height: 64px;
+    position: absolute;
+    left: 1700px;
+    background-color: #666;
+}
+
+.garage_box_btn span{
+    line-height: 64px;
+}

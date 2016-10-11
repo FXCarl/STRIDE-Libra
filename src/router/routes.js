@@ -8,5 +8,5 @@ export default [
   { path: '', component: App },
   { path: '/team', component: Teamvs},
   { path: '/qrcode', component: Qrpage},
-  { path: '/qarage', component: Garage}
+  { path: '/garage', component: Garage}
 ]
