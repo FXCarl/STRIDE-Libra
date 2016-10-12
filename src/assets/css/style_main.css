@@ -739,3 +739,155 @@ body {
     height: 270px;
     background-color: #666;
 }
+
+/* List */
+
+.list_team {
+    width: 860px;
+    height: 1080px;
+    overflow: hidden;
+    background-color: #eee;
+    top: 0;
+    left: 0;
+}
+
+.list_team_box_01 {
+    background-color: #666;
+    width: 430px;
+    height: 216px;
+    top: 0;
+    left: 0;
+}
+
+.list_team_box_02 {
+    background-color: #eee;
+    width: 430px;
+    height: 216px;
+    top: 0;
+    left: 430px;
+}
+
+.list_team_box_03 {
+    background-color: #eee;
+    width: 430px;
+    height: 216px;
+    top: 216px;
+    left: 0;
+}
+
+.list_team_box_04 {
+    background-color: #666;
+    width: 430px;
+    height: 216px;
+    top: 216px;;
+    left: 430px;
+}
+
+.list_team_box_05 {
+    background-color: #666;
+    width: 430px;
+    height: 216px;
+    top: 432px;
+    left: 0;
+}
+
+.list_team_box_06 {
+    background-color: #eee;
+    width: 430px;
+    height: 216px;
+    top: 432px;
+    left: 430px;
+}
+
+.list_team_box_07 {
+    background-color: #eee;
+    width: 430px;
+    height: 216px;
+    top: 648px;
+    left: 0;
+}
+
+.list_team_box_08 {
+    background-color: #666;
+    width: 430px;
+    height: 216px;
+    top: 648px;
+    left: 430px;
+}
+
+.list_team_box_09 {
+    background-color: #666;
+    width: 430px;
+    height: 216px;
+    top: 864px;
+    left: 0;
+}
+
+.list_team_box_10 {
+    background-color: #eee;
+    width: 430px;
+    height: 216px;
+    top: 864px;
+    left: 430px;
+}
+
+.list_avatar {
+    width: 420px;
+    height: 1080px;
+    background-image: url(../img/list_avatar/list_avt_01.png);
+    background-size: cover;
+    top: 0;
+    left: 860px;
+}
+
+.list_info_name {
+    width: 650px;
+    height: 110px;
+    top:0;
+    left: 1280px;
+    background-color: #eee;
+}
+
+.list_info_status {
+    width: 650px;
+    height: 218px;
+    top: 110px;
+    left: 1280px;
+    background-color: #666;
+}
+
+.list_info_skill {
+    width: 650px;
+    height: 400px;
+    top: 328px;
+    left: 1280px;
+    background-color: #eee;
+}
+
+.list_info_buff {
+    width: 650px;
+    height: 218px;
+    top: 728px;
+    left:1280px;
+    background-color: #666;
+}
+
+.list_info_buttons {
+    width: 650px;
+    height: 134px;
+    background-color: #eee;
+    top: 946px;
+    left: 1280px;
+}
+
+.list_info_button_detail {
+    width: 64px;
+    height: 64px;
+    background-color: #999;
+}
+
+.list_info_button_change {
+    width: 64px;
+    height: 64px;
+    background-color: #777;
+}
