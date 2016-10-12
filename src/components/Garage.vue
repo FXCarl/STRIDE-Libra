@@ -4,93 +4,19 @@
         <div class="page_bg hd"></div>
 
         <div class="garage_scroll ui">
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
-            <div class="garage_box">
-                <div class="garage_box_left"></div>
-                <div class="garage_box_btn">
-                    <span>Action</span>
-                </div>
-            </div>
+            <grgbox></grgbox>
         </div>
 
     </div>
 </template>
+
+<script>
+    import GrgBox from './GrgBox.vue'
+    export default{
+        components: {
+            'grgbox': GrgBox
+        }
+    }
+</script>
 
 <style src="../assets/css/style_main.css"></style>

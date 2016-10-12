@@ -677,7 +677,7 @@ body {
     position: absolute;
 }
 
-.garage_box_btn {
+.garage_box_btn_a {
     display: inline-block;
     width: 60px;
     height: 64px;
@@ -686,6 +686,18 @@ body {
     background-color: #666;
 }
 
+.garage_box_btn_b {
+    display: inline-block;
+    width: 60px;
+    height: 64px;
+    position: absolute;
+    left: 1600px;
+    background-color: #666;
+}
+
 .garage_box_btn span{
     line-height: 64px;
 }
+
+/* Detail */
+
