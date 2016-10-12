@@ -9,10 +9,23 @@
         </div>
 
         <div class="detail_box ui">
-            <div class="detail_name"></div>
-            <div class="detail_status"></div>
-            <div class="detail_skill"></div>
-            <div class="detail_story"></div>
+            <div class="detail_name">
+                <span>Name</span>
+            </div>
+            <div class="detail_status">
+                <span>Status A</span>
+                <span>Status B</span>
+                <span>Status C</span>
+                <span>Status D</span>
+            </div>
+            <div class="detail_skill">
+                <span>Skill</span>
+                <span>This is a powerful skill.</span>
+            </div>
+            <div class="detail_story">
+                <span>Story</span>
+                <span>Long long ago ...</span>
+            </div>
         </div>
 
     </div>

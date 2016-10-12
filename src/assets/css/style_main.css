@@ -701,3 +701,41 @@ body {
 
 /* Detail */
 
+.detail_avatar {
+    width: 800px;
+    height: 1080px;
+    background-color: #eee;
+    top: 0;
+    left: 0;
+}
+
+.detail_box {
+    width: 1120px;
+    height: 1080px;
+    overflow: hidden;
+    top: 0;
+    left: 800px;
+    overflow: hidden;
+}
+.detail_name {
+     width: 1120px;
+     height: 270px;
+     background-color: #fdfdfd;
+}
+
+.detail_status {
+    width: 1120px;
+    height: 270px;
+}
+
+.detail_skill {
+    width: 1120px;
+    height: 270px;
+    background-color: #fdfdfd;
+}
+
+.detail_story {
+    width: 1120px;
+    height: 270px;
+    background-color: #666;
+}
