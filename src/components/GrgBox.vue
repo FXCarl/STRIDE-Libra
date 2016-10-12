@@ -4,9 +4,9 @@
         <div class="garage_box_left">
                         
         </div>
-        <div class="garage_box_btn_b">
+        <router-link to="/detail"><div class="garage_box_btn_b">
             <span></span>
-        </div>
+        </div></router>
         <div class="garage_box_btn_a">
             <span></span>
         </div>
