@@ -6,7 +6,7 @@
         </div>
         <router-link to="/detail"><div class="garage_box_btn_b">
             <span></span>
-        </div></router>
+        </div></router-link>
         <div class="garage_box_btn_a">
             <span></span>
         </div>
