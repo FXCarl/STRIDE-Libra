@@ -45,8 +45,12 @@
         </div>
 
         <div class="list_info_buttons ui">
-            <router-link to="/detail"><div class="list_info_button_detail">Detail</div></router-link>
-            <router-link to="/garage"><div class="list_info_button_change">Change</div></router-link>
+            <div class="boxbox">
+                <router-link to="/detail"><div class="list_info_button_detail">Detail</div></router-link>
+            </div>
+            <div class="boxbox">
+                <router-link to="/garage"><div class="list_info_button_change">Change</div></router-link>
+            </div>
         </div>
 
     </div>
